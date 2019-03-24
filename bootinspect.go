@@ -12,6 +12,8 @@ func main() {
 	app := cli.NewApp()
 	app.Name = "Bootinspect"
 	app.Usage = "Inspect CSS files"
+	app.Author = "Blackpeak"
+	app.Version = "0.0.1"
 
 	app.Action = func(c *cli.Context) error {
 		fmt.Println("Hello friend!")
