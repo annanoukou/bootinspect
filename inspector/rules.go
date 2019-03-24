@@ -15,7 +15,7 @@ func rules() map[string]string {
 	r["border-radius: .25rem"] = "border"
 
 	// Typography
-	r["font-weight:bold"] = "text-bold"
+	r["font-weight: bold"] = "text-bold"
 	return r
 }
 
